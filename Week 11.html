@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+
+<!--
+Note - this is made from a template - https://themewagon.com/themes/free-bootstrap-blogging-website-template-revolve/
+
+-->
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Dyslexic Drive</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!--Favicon-->
+    <link rel="shortcut icon" href="images/favicon-16x16.png" type="image/x-icon">
+
+    <!-- THEME CSS
+	================================================== -->
+   <!-- Bootstrap -->
+    <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
+    <!-- Themify -->
+    <link rel="stylesheet" href="plugins/themify/css/themify-icons.css0">
+    <link rel="stylesheet" href="plugins/slick-carousel/slick-theme.css">
+    <link rel="stylesheet" href="plugins/slick-carousel/slick.css">
+    <!-- Slick Carousel -->
+    <link rel="stylesheet" href="plugins/owl-carousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="plugins/owl-carousel/owl.theme.default.min.css">
+    <link rel="stylesheet" href="plugins/magnific-popup/magnific-popup.css">
+    <!-- manin stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header class="header-top bg-dark py-4">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navigation menu-white">
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/logo-w.png" alt="" href="index.html" class="img-fluid"  width="75" height="100">
+                </a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse"
+                    aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="ti-menu  text-white"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbar-collapse">
+                    <ul class="menu navbar-nav ml-auto">
+                        <li class="nav-item dropdown">
+                            <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                            </a>
+                        </li>
+                            <li class="nav-item"><a href="Blog-single.html" class="nav-link">Blog</a></li>
+                        </li>
+                        </li>
+
+            
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+<!-- ====================================== Header end / Body  start=============================================== -->
+<div class="breadcrumb-wrapper">
+    <div class="container 2">
+        <div class="row">
+            <div class="col-sm-12">
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<section class="pt-5 padding-bottom">
+    <div class="container 2">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+<!-- ====================================== Slideshow start=============================================== -->
+
+
+<!-- Container for the image gallery -->
+<div class="container">
+
+    <!-- Full-width images with number text -->
+    <div class="mySlides">
+      <div class="numbertext">1 / 2</div>
+        <img src="DocMat/Week 11/Color.png" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">2 / 2</div> 
+        <img src="DocMat/Week 11/doc.png" style="width:50%">
+    </div>
+  
+    <!-- Next and previous buttons -->
+
+  
+    <!-- Image text -->
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+  
+    <!-- Thumbnail images -->
+    <div class="row">
+      <div class="column">
+        <img class="demo cursor" src="DocMat/Week 11/Color.png" style="width:100%" onclick="currentSlide(1)" alt="Color setting in action">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="DocMat/Week 11/doc.png" style="width:50%" onclick="currentSlide(2)" alt="Documentation">
+      </div>
+
+
+
+
+    </div>
+  </div>
+
+  <script>
+    let slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("demo");
+      let captionText = document.getElementById("caption");
+      if (n > slides.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";
+      dots[slideIndex-1].className += " active";
+      captionText.innerHTML = dots[slideIndex-1].alt;
+    }
+    </script>
+
+
+<!-- ====================================== Slideshow end =============================================== -->
+
+                <div class="row">
+                </div>
+                <div class="container2">
+                <div class="row justify-content-center mt-5">
+                    <div class="col-lg-12">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <div class="text-center">
+                                    <h1 class="lcom">Week 11</h1>
+                                </div>
+                                <h5 class=" " text-align="center">01/09/23 </h5>
+                                <p>Started experimenting with the tool, hasnt been going well as things dont seem to change as i want them. IDK how to explain it, it just goes awol. 
+                                   </p> 
+                                <h5 class=" " text-align="center">02/09/23 </h5>   
+                                <p>Utilizing the same page techniq as the other toolkit, I managed to change 2 aspects of the
+                                  tool, giving it only 2 functions. Still a little win. Giving some light functionality! I also did some
+                                  work to better optimize my site for my macbook, although this isnt perfect aa the lighboxs are
+                                  randomly changing scroll position sometimes. And some assets are being strange in its
+                                  placement bahavor. </p>
+                                <p>As well as this, I also cleaned up and finished the documentation document</p>
+                                <p>https://docs.google.com/document/d/1sGg_T4o7RZYz-KzcYFET-stCg9WJrudXdWUL0Y_SW2w/edit?usp=sharing</p>
+                                
+
+                        
+                                <h5 class=" " text-align="center">CMS Reflection - </h5>   
+                                <p>Although i started this project at a delayed time, I still learnt a lot about CMS’s in a short period and am very happy to have it in my toolkit. Within the assignment I've been able to expand my prototypes design and improve it in little ways as well as implement feedback while utilizing a brand new system. If i were to change things within my time during the assignment, I would likely focus less on making it viable for 2 different desktops, as it frustrated me the most abot utilizing the cms. Another aspect would be to utilize it for something more conventional as this would have worked better as code rather then an online integrated system as it did restrict me from delving depper into the tool kit design, however my coding abilities arent to the ability I would require to make the toolbox on evey page. I would also like to have started earlier to further the tool kit for evey page as well instead of projecting it onto 2 as a sign of function for this assignment. Overall however I do believe with utilizing a brand new system for an unconventional type of website, I have provided a good working site with function, that in time I would like to develop further with better knowledge of CMS or code itself. For the time given, I am very happy with the result. 
+                                <p>                                  Note - Screes used and optimized for my site 
+                                  Mac 27’
+                                  Macbook 13’
+                                  </p></p>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                        
+        </div>
+    </section>
+
+
+    <!--footer start-->
+    <footer class="footer-section bg-grey">
+        <div class="instagram-photo-section">
+            <div class="container2">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h4 class="text-center"></h4>
+                    </div>
+                </div>
+
+                <div class="row no-gutters" id="instafeed">
+
+                </div>
+            </div>
+        </div>
+        </div>
+
+
+                <div class="col-md-12 text-center">
+                    <p class="copyright">© Dyslexic Drive 2023 <a class="text-white" href="https://themewagon.com"></a></p>
+                </div>
+                <img src="images/logo-w.png" alt="" class="img-fluid" align="left" width="100" height="125">
+            </a>
+            </div>
+        </div>
+    </footer>
+    <!--footer end-->
+
+    <!-- THEME JAVASCRIPT FILES
+================================================== -->
+    <!-- initialize jQuery Library -->
+    <script src="plugins/jquery/jquery.js"></script>
+    <!-- Bootstrap jQuery -->
+    <script src="plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script src="plugins/bootstrap/js/popper.min.js"></script>
+    <!-- Owl caeousel -->
+    <script src="plugins/owl-carousel/owl.carousel.min.js"></script>
+    <script src="plugins/slick-carousel/slick.min.js"></script>
+    <script src="plugins/magnific-popup/magnific-popup.js"></script>
+    <!-- Instagram Feed Js -->
+    <script src="plugins/instafeed-js/instafeed.min.js"></script>
+    <!-- Google Map -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCC72vZw-6tGqFyRhhg5CkF2fqfILn2Tsw"></script>
+    <script src="plugins/google-map/gmap.js"></script>
+    <!-- main js -->
+    <script src="js/custom.js"></script>
+
+
+</body>
+
+</html>

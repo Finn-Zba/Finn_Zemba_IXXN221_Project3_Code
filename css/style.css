@@ -1,0 +1,409 @@
+/**
+ * WEBSITE: https://themefisher.com
+ * TWITTER: https://twitter.com/themefisher
+ * FACEBOOK: https://www.facebook.com/themefisher
+ * GITHUB: https://github.com/themefisher/
+ */
+
+/*
+Author       : Revolve
+Template Name: Minimal Blog Template
+Author URI : https://themefisher.com/
+Description: Revolve,blog,minimal,multipage,contact 
+Version      : 1.0
+*/
+/*------------------------------------------------------------------
+================================================== */
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,700|Lato:400,600,700");
+@import url("https://fonts.googleapis.com/css?family=Lora:400,700|Open+Sans|Unna:400,700&display=swap");
+
+body,
+p {
+  font-family: "Open Sans", sans-serif;
+  line-height: 26px;
+  font-size: 16px;
+  text-rendering: optimizeLegibility;
+  color: #fff;
+  font-weight: 400;
+  justify-content: center;
+  text-align: center;
+  font-stretch: 100000%;
+  
+}
+
+html {
+  overflow-x: hidden;
+  width: 100%;
+  height: 100%;
+  font-stretch: 100000;
+}
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+  color: #fd9cce;
+  font-weight: 600;
+  font-family: "Unna", serif;
+  padding: auto;
+}
+
+h1,
+.h1 {
+  font-size: 38px;
+  line-height: 48px;
+  justify-content: center;
+}
+
+h2,
+.h2 {
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: 700;
+  justify-content: center;
+}
+
+h3,
+.h3 {
+  font-size: 24px;
+  font-weight: 700;
+  justify-content: center;
+}
+
+h4,
+.h4 {
+  font-size: 20px;
+  line-height: 28px;
+  justify-content: center;
+}
+
+h5,
+.h5 {
+  font-size: 16px;
+  line-height: 26px;
+  justify-content: center;
+}
+
+h6,
+.h6 {
+  font-size: 14px;
+  line-height: 22px;
+  justify-content: center;
+}
+
+.h7 {
+  color: white;
+  font-weight: 600;
+  font-family: "Unna", serif;
+  padding: auto;
+  font-size: 14px;
+  line-height: 22px;
+  justify-content: center;
+  margin: 300px;
+  padding: 20px;
+}
+
+.font-extra { 
+  font-family: "Lora", serif;
+}
+
+.para {
+  font-stretch: 100000%;
+  padding-left: -250px;
+  padding-right: -250px;
+
+}
+/* 1.2. Common styles
+================================================== */
+body {
+  background: #000;
+  color: white;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+a {
+  transition: all 0.3s ease-in-out;
+  color: #fd9cce;
+}
+
+.toptext{
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fd9cce;
+}
+
+a.read-more:hover {
+  color: #fd9cce;
+}
+
+.section-padding {
+  padding: 20px 0;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border: 1px solid #fd9cce;
+}
+
+.font-sm {
+  font-size: 12px !important;
+}
+
+.text-color {
+  color: #fd9cce;
+}
+
+/* Zoom effect  from https://codepen.io/lucy_wheel/pen/VxYzKP */
+.image-box {
+  position: relative;
+  margin: auto;
+  overflow: hidden;
+
+}
+.image-box img {
+  max-width: 100%;
+  transition: all 0.3s;
+  display: block;
+  width: 100%;
+  opacity: 90%;
+  fill: #fd9cce;
+  height: auto;
+  transform: scale(1);
+}
+
+.image-box:hover img {
+  transform: scale(1.1);
+  opacity: 90%;
+  fill: #fd9cce;
+}
+
+.navigation .menu li {
+  text-align: left;
+  padding: 0px 10px;
+}
+
+.navigation .menu li a {
+  color: #000000;
+  display: inline-block;
+  line-height: 26px;
+  letter-spacing: 1px;
+}
+
+.navbar-nav .nav-link {
+  transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -webkit-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 25px 0px;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #fd9cce !important;
+}
+
+.bg-dark {
+  background: #000000 !important;
+}
+
+.navigation-dark .navigation .navbar-nav .nav-link {
+  color: #fd9cce;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.navigation-dark .header-socials-2 a {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.navigation.menu-white .navbar-nav .nav-link {
+  color: #fff;
+}
+
+.content {
+  width: 85%;
+  margin: 0 auto;
+  padding-left: 170px;
+}
+
+.center {
+  display: block;
+  height: 500px;
+  width: 500px;
+  margin-left: 100px;
+  margin-right: 100px;
+  text-align: center;
+  overflow: hidden;
+  font-stretch: expanded;
+
+}
+
+.cent {
+  text-align: center;
+  padding-left: 100px;
+
+}
+
+/* Slideshow from W3 schools */
+* {
+  box-sizing: border-box;
+  justify-content: center;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+.container2 {
+  position: relative;
+  margin-left: -400px;
+  margin-right: -400px;
+
+}
+
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgb(255, 255, 255);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #fd9cce;
+  font-size: 20px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #000;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+.main-menu {
+  padding: 70px  150px;
+  padding-bottom: 15px;
+}
+
+.header-social-wrapper ul li a {
+  font-size: 14px;
+  padding: 0px 10px;
+  width: 40px;
+  height: 40px;
+  margin-bottom: 5px;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.05);
+  display: inline-block;
+  padding-top: 6px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.header-top {
+  position: relative !important;
+}
+
+/*-------------------------------
+footer
+-------------------------------*/
+.footer-section {
+  background: #f8f8f8;
+  background: #000;
+  padding: 15px 0px 0px;
+  margin-top: 0px;
+  position: relative;
+}
+
+.footer-section .copyright {
+  padding-top: 20px;
+  margin-top: 20px;
+  border-top: 1px solid rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+}
+
+.copyright {
+  font-size: 20px;
+  padding-top: px;
+}
+
+.footer-home {
+  padding-left: 320px;
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  box-sizing: border-box;
+  z-index: 100;
+  padding-right: 30px;
+}
+
+/*# sourceMappingURL=style.css.map */
